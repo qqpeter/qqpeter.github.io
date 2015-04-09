@@ -1,0 +1,20 @@
+
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+
+.header {
+  height: 70px;
+  background: #1b39ab;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  width: 960px;
+  height: 700px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
