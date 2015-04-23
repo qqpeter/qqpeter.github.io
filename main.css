@@ -13,6 +13,10 @@ img {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
@@ -28,7 +32,7 @@ img {
 
 
 
-
+/* layout.css */
 
 .header {
   position: fixed;
@@ -39,13 +43,37 @@ img {
   height: 50px;
 }
 
+.header .logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  /* 居中 */
+  position: fixed;
+  left: 50%;
+  margin-left: -30px;
+  top: 10px;
+
+  /* 字体居中 */
+  color: #fff;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+
+  /* 颜色样式 */
+  background: #00c4cc;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
 
 
 /* blog.css */
 
 .blog-wrapper {
   width: 660px;
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-top: 40px;
   padding: 30px;
 }
 
