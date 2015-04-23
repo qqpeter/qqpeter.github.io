@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #fafafa;
   margin: 0;
-  font: 17px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+  font: 15px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
   color: #555;
 }
 
@@ -32,19 +31,23 @@ img {
 
 
 .header {
-  background: #1b39ab;
-  height: 70px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background: #00b0b8;
+  height: 50px;
 }
 
-.wrapper {
-  width: 960px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-  background: #fff;
-  margin: 10px auto;
+
+
+/* blog.css */
+
+.blog-wrapper {
+  width: 660px;
+  margin: 30px auto;
   padding: 30px;
 }
-
-/* blog post */
 
 .post-title {
   font-weight: normal;
