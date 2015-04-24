@@ -29,7 +29,14 @@ a {
   *zoom: 1;
 }
 
+/* welome.css */
 
+.banner-page {
+  background: url("./images/peter-banner.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
 
 /* layout.css */
