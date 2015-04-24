@@ -38,6 +38,21 @@ a {
   background-position: 50% 50%;
 }
 
+.tagline {
+  margin-top: 150px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.tagline-caption {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.8;
+}
 
 /* layout.css */
 
