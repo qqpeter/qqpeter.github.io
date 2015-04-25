@@ -13,6 +13,11 @@ img {
   border: none;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -61,6 +66,34 @@ a {
   height: 50px;
 }
 
+.header .nav {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-top: 12px;
+}
+
+.header .nav li {
+  list-style: none;
+  float: left;
+  margin-right: 7px;
+}
+
+.header .nav li a {
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.header .nav li a:hover {
+  border: 1px solid rgba(255,255,255,.2);;
+}
+
+.header .nav li.current a {
+  background: rgba(255,255,255,.2);
+  border: 1px solid transparent;
+}
 
 .header .logo {
   display: block;
