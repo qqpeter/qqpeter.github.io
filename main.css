@@ -20,6 +20,7 @@ img {
 
 a {
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .clearfix:before,
@@ -74,6 +75,31 @@ a {
   position: relative;
 }
 
+.post .thumbnail-image {
+  display: block;
+  position: relative;
+}
+
+.post .thumbnail-image:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.post .thumbnail-image:hover:before {
+  opacity: 0.6;
+}
+
+
 .post .thumbnail {
   display: block;
   width: 290px;
@@ -85,6 +111,13 @@ a {
 .post .post-info {
   margin: 24px;
 }
+.post-info a {
+  color: #000;
+}
+.post-info a:hover {
+  color: #b5b9bd;
+}
+
 .post h3 {
   font-size: 18px;
   line-height: 1.6;
@@ -159,6 +192,14 @@ a {
   /* 颜色样式 */
   background: #00c4cc;
   box-shadow: 0 5px 5px rgba(0,0,0,.1);
+
+  /* transition 效果 */
+  transition: top .2s ease-out, box-shadow .2s ease-out;;
+}
+
+.header .logo:hover {
+  top: 18px;
+  box-shadow: 0 3px 3px rgba(0,0,0,.1);
 }
 
 /* blog.css */
