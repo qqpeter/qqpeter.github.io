@@ -52,10 +52,22 @@ a {
   margin-top: -50px;
 }
 
-.banner-page .container {   position: relative;   height: 100%; } .read-btn {
-position: absolute;   bottom: 20px;   right: 0;   text-align: center;
-padding: 7px 10px;   border-radius: 5px;   border: 2px solid #fff;
-background-color: #fff; }
+.banner-page .container {
+  position: relative;
+  height: 100%;
+}
+
+.read-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  text-align: center;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #fff;
+}
 
 .read-btn:hover {
   color: #000;
